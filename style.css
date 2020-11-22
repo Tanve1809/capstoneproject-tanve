@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #10e7dc;
+}
+#home{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+    color: black;
+}
+nav{
+    background: black;
+    font-weight: bold;
+    position: fixed;    
+    width: 100%;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    margin:0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.text{
+    padding: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: double ;
+    padding-top: 100px;
+}
+#img{
+    widows: 350px;
+    height: 300px;
+    padding: 20px;
+}
+
+#logo{
+    width: 70px;
+    height: 50px;
+}
+
+#home-facts{
+    font-family: 'Texturina', serif;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    top: 40px;
+    border: 2px solid black;
+    width: 400px;
+    height: 330px;
+}
+
+#home-div-1{
+    background-color: blue;
+    color: lightyellow;
+    padding: 1px;
+    text-align: left;
+}
+
+#home-div-2{
+    background-color: red;
+    text-align: left;
+}
+
+#home-div-3{
+    background-color: greenyellow;
+    height: 105px;
+    text-align: left;
+}
+
+hr{
+    color: black;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    color: white;
+    padding: 10px;
+}
+
+

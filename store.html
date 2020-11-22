@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylestore.css">
+</head>
+<body>
+    <header><img id="logo" src="https://i1.faceprep.in/ProGrad/groove-logo.png" alt="Logo"></header>
+    <div class="top container">
+        <h1>Welcome to Groove!</h1>
+         <p>Select your favorite Eco-Friendly things, confirm your mobile number <br> and get them delivered in 30 mins</b></p>
+         <br><br>
+        <div class="button store"><a href="#table"><b>What’s in store?</b></a></div>
+    </div>
+    <div class="table container">
+        <h2>Here’s What Is In Store Today</h2>
+        <table>
+            <!-- <table></table>
+            <th></th>
+            <tr></tr>
+            <td></td> -->
+            <tr>
+                <th>SELECT</th>
+                <th>ITEM</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+            </tr>
+            <tr id="item1">
+                <td><input type="checkbox"></td>
+                <td class="tabke-img">
+                    <img src="https://techland.time.com/wp-content/uploads/sites/15/2014/01/light-bulb.jpg?w=720&h=480&crop=1" alt="Image"></td>
+                <td>Energy effecient light bulb</td>
+                <td>100 Rs</td>
+                <td><input type="number" id="quantity"></td>
+            </tr>
+            <tr id="item2">
+                <td><input type="checkbox"></td>
+                <td class="tabke-img"><img src="https://ykpromo.com/wp-content/uploads/2017/10/6008-600x298.jpg" alt="Image"></td>
+                <td>Pen with seed</td>
+                <td>40 Rs</td>
+                <td><input type="number" id="quantity"></td>
+            </tr>
+            <tr id="item3">
+                <td><input type="checkbox"></td>
+                <td class="tabke-img"><img src="https://images.tribuneindia.com/cms/gall_content/2018/11/2018_11$largeimg07_Wednesday_2018_002010391.jpg" alt="Image"></td>
+                <td>Pollution free crackers</td>
+                <td>80 Rs</td>
+                <td><input type="number" id="quantity"></td>
+            </tr>
+            <tr id="item4">
+                <td><input type="checkbox"></td>
+                <td class="tabke-img"><img src="https://cdn.zmescience.com/wp-content/uploads/2013/02/reusable-bag.jpg" alt="Image"></td>
+                <td>Resuable Bag</td>
+                <td>40 Rs</td>
+                <td><input type="number" id="quantity"></td>
+            </tr>
+        </table>
+        <p>One last step to place your order. <br> Enter your mobile number and you are done!</p> <br></br>
+        <input id="mobile" type="number" placeholder="Enter your moblie number"> <br></br>
+        
+        <div class="button" onclick="buy()" id="buy-now"><b>Buy Now</b></div> <br></br>
+        <h4 id="thanks">Thank You For Shopping With Us</h4>
+    </div>
+
+    <a id="a" href="./index.html">To go Back to The home page click here</a>
+    <br><br>
+    <footer>
+        <p>Made with 💖 by ProGrad Junior, S.Tanve</p>
+    </footer>
+
+    <script>
+        function buy(){
+            document.getElementById("buy-now").style.display="none";
+            document.getElementById("thanks").style.display="inherit";
+        }
+    </script>
+</body>
+<script src="./app.js"></script>
+</html>
